@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --lightGrey: hsl(217, 12%, 63%);
+  --mediumGrey: hsl(216, 12%, 54%);
+  --darkBlue: hsl(213, 19%, 18%);
+  --veryDarkBlue: hsl(216, 12%, 8%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 15px;
+  background-color: var(--veryDarkBlue);
+  font-family: 'Overpass', sans-serif;
+  position: absolute;
+}
+
+.main-container {
+  border: 1px solid salmon;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+}
+
+/* .img-container {} */
+
+.heading {
+  color: var(--white);
+}
+
+.description {
+  color: var(--lightGrey);
+}
+
+/* #buttons {} */
